@@ -1,1 +1,87 @@
-* ACM UPM - Python SIG
+* ACM UPM - Python SIG							:TOC:
+   - [[#bienvenida][Bienvenida]]
+   - [[#introducción][Introducción]]
+
+** Bienvenida
+
+Bienvenidos al repositorio del SIG de Python. Como bienvenida no
+estaría mal explicar un poco qué es todo esto, así que a ello voy.
+
+Un SIG es un Grupo de Interés Especial (Special Interest Group), y
+como podréis adivinar, a nosotros nos interesa especialmente
+Python. Este grupo no es más que una forma de que aquellas personas
+que tenemos intereses comunes nos pongamos en contacto para aprender
+juntos el lenguaje Python.
+
+En este repositorio iremos colgando los ejercicios que hagamos y los
+proyectos en los que estemos trabajando. Será una forma ordenada de
+tener nuestro trabajo controlado. Además, como siempre nos gusta
+aprender varias cosas a la vez, también servirá para que aquellos que
+no sepan ~GIT~ puedan aprenderlo poco a poco.
+
+A medida que empecemos a realizar actividades se irá definiendo el
+carácter del grupo y las dinámicas propias de trabajo, pero a priori
+sí que se pueden identificar algunas. Compartiremos contenidos que nos
+parezcan relevantes, los analizaremos y subiremos lo
+aprendido. Pondremos ejercicios y retos para poder ir haciéndolos, al
+igual que un curso poco a poco por el que aprender desde 0 Python.
+
+No es necesario ningún conocimiento previo, vamos a partir desde lo
+más básico. A medida que aprendas podrás hacer más ejercicios y retos,
+pero estos no son más que una manera de darle un empujón más a tu
+aprendizaje. Además, para que todo se pueda asentar mejor, haremos
+también actividades presenciales para que cualquiera pueda venir y
+aprender y practicar /en vivo/.
+
+Por lo tanto para no esperar más, lo propio sería empezar con la
+introducción al lenguaje Python.
+
+** Introducción
+
+Python es un lenguaje de programación que en [[https://www.python.org/][su web]] se define como
+/poderoso, rápido, se integra bien con otros lenguajes, se ejecuta en
+todas partes y que sobre todo es sencillo de aprender (además de abierto)/. 
+
+¿Esto en qué nos afecta y qué nos importa más? Pues en que vamos a
+poder aprender rápido a hacer cosas interesantes que sin
+complicaciones nos permitan realizar tareas relativamente
+complejas. 
+
+Una de las características por las que destaca Python es por su
+sintaxis, que comparándola con lenguajes como Java y C es mucho más
+limpia y sencilla. Esto nos ayuda muchas veces a pensar más en el
+problema y menos en la herramienta que estamos usando para resolverlo.
+
+Además es muy sencillo de ejecutar, solo tenemos que llamar a Python
+desde una terminal y lanzamos el intérprete. Y si queremos lanzar
+nuestro programa, solamente tenemos que tener nuestro fichero.py con
+un programa en python y hacer ~python fichero.py~ y entonces se
+ejecutará. Nada de compilar el código, en Python se interpreta sobre
+la marcha. Esto hace que sea un lenguaje que guste mucho para hacer
+/scripting/. 
+
+Pero todavía no lo hemos instalado, vamos a ello. Dependiendo de tu
+plataforma hará falta una forma u otra. En linux viene preinstalado,
+pero es una versión anterior del lenguaje (Python 2), nosotros vamos a
+trabajar con la más moderna: ~Python 3~. (En [[https://www.archlinux.org/][Arch Linux]] viene por
+defecto la 3).
+
+- Linux
+  - ~sudo apt-get install python3~
+- Mac
+  - ~brew install python3~
+
+En Windows el proceso es un poco más pesado. Y desde aquí animo a toda
+persona que tenga Windows a que pruebe Linux si todavía no lo ha
+hecho. Si tienes Linux como partición en tu disco y no te es
+imprescindible usar Windows: por favor, arranca el ordenador con
+Linux. Tu conocimiento aumentará y lo agradecerás. 
+
+Finalmente, si estás en Windows, lo mejor es seguir esta guia:
+http://www.howtogeek.com/197947/how-to-install-python-on-windows/
+
+Recuerda descargar e instalar siempre la versión más actualizada del
+lenguaje. En la página oficial tienen siempre la última versión:
+https://www.python.org/downloads/
+
+Una vez lo tengas instalado, ya se puede empezar a jugar :)
