@@ -1,7 +1,8 @@
 * ACM UPM - Python SIG							:TOC:
    - [[#bienvenida][Bienvenida]]
    - [[#introducción][Introducción]]
-
+   - [[#día-1][Día 1]]
+   - [[#koans][Koans]]
 ** Bienvenida
 
 Bienvenidos al repositorio del SIG de Python. Como bienvenida no
@@ -85,3 +86,136 @@ lenguaje. En la página oficial tienen siempre la última versión:
 https://www.python.org/downloads/
 
 Una vez lo tengas instalado, ya se puede empezar a jugar :)
+
+Como extra para el primer día siempre es bueno conocer más sobre el
+lenguaje. Como por ejemplo ver un poco de la [[https://es.wikipedia.org/wiki/Python#Historia][historia del lenguaje]]
+(such Wikipedia) o ver qué tipo de paradigmas se pueden utilizar con
+Python, ya que es multiparadigma.
+
+Y si no sabes lo que es un paradigma -> [[https://es.wikipedia.org/wiki/Paradigma_de_programaci%C3%B3n][GOTO]]
+
+Si ya quieres empezar a probar el lenguaje, ve al Día 1.
+
+** Día 1
+
+La manera más sencilla de empezar a conocer python es a través de su
+intérprete. El intérprete se arranca con el comando ~python3~
+(recuerda la versión que estamos usando). Este comando va a lanzar lo
+que se llama un REPL (Read Eval Print Loop).
+
+Como solemos empezar es conociendo los tipos del lenguaje. Si tenemos
+conocimiento en Java por ejemplo, veremos que los tipos son muy
+similares. Tenemos enteros, booleanos, strings, chars... Además de
+otras estructura de datos que python nos da por defecto para poder
+usar, sin necesidad de importar nada: listas, diccionarios, tuplas...
+
+Como en todo lenguaje, hay unos operadores que nos permiten trabajar
+con esos datos. Suma, resta, multiplación, división, módulo,
+potencia... Pero también podemos concatenar cadenas, añadir elementos
+a una lista... Probemos un poco.
+
+#+BEGIN_SRC python
+
+2 + 2      # Enteros
+
+0.5 * 2    # Floats
+
+0.2 + 0.1  # Matemáticas rotas
+
+17 / 3
+
+17 // 3    # Operador de división entera
+
+2 * 3      
+
+2 ** 3     # Operador de exponenciación 2^3
+
+#+END_SRC
+
+
+En Python también trabajamos con variables, que poseen la
+característica de ser dinámicas (contraposición a estáticas). Es
+decir, podemos cambiar el tipo de la variable durante la ejecución.
+
+#+BEGIN_SRC python
+
+width = 20
+height = 5 * 9
+width * height
+
+a = 3
+b = 3 * a
+
+a = 2 * "hola "    # Si, esto se puede hacer.
+
+#+END_SRC
+
+¿De dónde estoy sacando toda esta información? Respuesta fácil: de la
+documentación de Python. La documentación de Python siempre va a ser
+uno de los primeros recursos que deberíamos mirar. 
+
+ - https://docs.python.org/3/tutorial/introduction.html
+
+
+Recomendación para no saturarse si no sabías nada de python: trabajar
+solamente esta primera página.
+
+Extra: Si ya has mirado las cosas que puedes hacer con strings, en
+python hay una forma magnifica para darles formato y que sea mucho más
+cómodo trabajar con ellas. Esta web es ideal para aprenderla:
+https://pyformat.info/
+** Koans
+
+Tras el primer día de contacto con Python ya hemos aprendido como
+funciona un poquito el lenguaje. A estas alturas lo que deberíamos conocer es:
+
+- Cómo lanzar un intérprete de Python
+- Operaciones entre números
+- Trabajar un poco con strings y listas
+
+Los koans son unos ejercicios o problemas muy sencillos orientados a dominar algo
+muy específico. Esta idea se aplica a la pogramación para conocer
+mejor un lenguaje. Utilizaremos los koans que hay en este repositorio
+https://github.com/gregmalcolm/python_koans para repasar lo que vimos
+el otro día.
+
+En el README del repositorio está perfectamente explicado cómo
+instalar y empezar a usar las koans. Un pequeño resumen sería:
+
+1. Clonar el repositorio
+2. Instalar ~sniffer~, un paquete de python. Se instala mediante ~pip~
+   (necesitarás tener ~pip~ instalado)
+3. Ir al directorio de ~python3~ y ejecutar el comando ~sniffer~
+
+De esta manera nos empezará a indicar errores que tenemos en los test,
+señalando el fichero y la línea donde se encuentra el error. Debemos
+abrir el fichero indicado y modificarlo para que /pase los tests/.
+
+Recomendación: hacer las 5 primeras /lessons/.
+
+1. Thinking AboutAsserts
+2. Thinking AboutStrings
+3. Thinking AboutNone
+4. Thinking AboutLists
+5. Thinking AboutListassignments
+
+Como nueva jornada de trabajo esto es suficiente. Colateralmente
+podréis comprobar cómo se definen funciones en python: ~def
+nombre_funcion(args):~ y cómo se realizan tests unitarios.
+
+Este es el momento de empezar a abrir ficheros ~.py~, por lo que nos
+hará falta un editor o entorno de desarrollo. Como recomendaciones:
+
+- Emacs
+- PyCharm
+
+Aunque también hay otros como SublimeText que tienen una curva de
+aprendizaje más rápida (pero con menos opciones a la larga). Si ya
+tenéis entorno favorito y no es uno de estos, hay mil formas de
+cofigurarlo para que trabaje perfectamente con python. (Visual Studio,
+Eclipse). Pero por favor, huid tanto de Eclipse como de Nano, Gedit o
+Notepad++ para desarrollar.
+
+Una vez se hayan completado estos ejercicios podremos empezar a
+escribir código en python más rápido de cara a futuros ejercicios que
+plantearemos.
